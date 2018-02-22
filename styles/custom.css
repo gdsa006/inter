@@ -1,0 +1,187 @@
+/*font*/
+@font-face{
+	font-family: "";
+	src: url('');
+}
+/*default styles*/
+body{
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+
+p{
+ font-size: 18px;
+ line-height: 32px;
+}
+
+ul,ol{
+
+}
+
+header{
+	background-color:#476bff;
+	padding:20px 0;
+}
+section{
+padding: 60px 0;
+}
+
+footer{
+	padding:30px 0;
+	background-color:#476bff;
+}
+
+#logo{
+	font-weight: bolder;
+	font-size:20px;
+}
+
+section h1#sectn-title{
+	color: #476bff;
+	margin:0px 0px 25px;
+}
+
+section h6#sectn-title-desc{
+	color: #ccc;
+	line-height: 22px;
+}
+
+section.grey-bg{
+	background-color: #f4f4f4;
+}
+
+/*custom styles*/
+
+
+/*header*/
+header #logo{
+	font-weight: bolder;
+	font-size:20px;
+	color:#fff;
+}
+
+header #login-btn, header #signup-btn{
+	background-color:none;
+	color:#fff;
+	padding:10px 25px;
+	border:2px solid #fff;
+}
+
+
+header #login-btn:hover, header #signup-btn:hover{
+	background-color:#fff;
+	color:#476bff;
+}
+/*body*/
+section#intro-wlcm{
+	padding:30px 0;
+	background-color: #476bff;
+}
+
+section#intro-wlcm #intro-big-txt{
+	color:white;
+	font-weight:100;
+	font-size: 30px;
+	margin:0;
+}
+
+section#intro-wlcm #intro-small-txt{
+	color:white;
+	font-weight:100;
+	font-size: 16px;
+}
+
+section#intro-wlcm .inner-wrapper{
+padding: 10px 0;
+}
+
+section#intro-wlcm form .input-group{
+	margin:0 0 15px;
+}
+
+section#intro-wlcm form .input-group input{
+padding: 20px;
+background-color: transparent;
+border:solid 2px #fff;
+color:#fff;
+}
+
+section#intro-wlcm form .input-group .input-group-addon{
+	background-color: #fff;
+	font-size: 23px;
+	color:#476bff;
+	border:solid 2px #fff;
+}
+
+section#intro-wlcm form .input-group.btn{
+	margin:10px 0 0 0;
+	padding-left: 0;
+}
+
+section#intro-wlcm form .input-group #quote-btn{
+	padding: 15px 27px;
+	background-color: #41b574;
+	border:0;
+	color:#fff;
+}
+
+section#abt-urbn-trck .wrapper .inner-wrapper{
+	background-color: #fff;
+	border-radius: 15px;
+	padding:25px 20px;
+	-webkit-box-shadow: 0px 0px 44px -8px rgba(0,0,0,0.17);
+	-moz-box-shadow: 0px 0px 44px -8px rgba(0,0,0,0.17);
+	box-shadow: 0px 0px 44px -8px rgba(0,0,0,0.17);
+}
+
+section#abt-urbn-trck .wrapper .inner-wrapper h1#title{
+		margin:0 0 25px;
+		line-height: 45px;
+}
+
+section#abt-urbn-trck .wrapper .inner-wrapper h1#title span:nth-child(1){
+	color:#476bff;
+}
+
+section#abt-urbn-trck .wrapper .inner-wrapper h1#title span:nth-child(1) span{
+	font-weight: bolder;
+}
+/*footer*/
+
+footer #logo{
+	font-weight: bolder;
+	font-size:20px;
+	color:#fff;
+}
+
+footer #ft-headings{
+	font-weight: bolder;
+	color:#fff;	
+}
+
+footer ul#ft-links{
+	list-style: none;
+	padding: 0;
+}
+
+footer ul#ft-links li{
+margin:0 0 10px;
+}
+
+footer ul#ft-links li a{
+color:#fff;
+}
+
+/*media*/
+
+
+
+
+/*extras*/
+#intro-wlcm .form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+#intro-wlcm .form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+#intro-wlcm .form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+#intro-wlcm .form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+#intro-wlcm .form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
